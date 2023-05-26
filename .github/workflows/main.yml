@@ -26,7 +26,7 @@ jobs:
           npm ci
       - name: deploy
         run: |
-          tsc index.ts
+          tsc -b
           mv index.js dist 
           zip -j deploy.zip ./dist/*
           aws lambda update-function-code --function-name=rndk-auth --zip-file=fileb://deploy.zip

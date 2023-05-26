@@ -1,12 +1,9 @@
 {
   "compilerOptions": {
-    "target": "es2015",
+    "target": "ES2022",
     "moduleResolution": "node",
     "sourceMap": true,
     "rootDir": "./",
     "outDir": "dist/",
   },
-  "include": [
-    "../lib/**/*"
-  ]
 }
