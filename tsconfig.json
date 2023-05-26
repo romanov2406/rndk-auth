@@ -4,6 +4,9 @@
     "moduleResolution": "node",
     "sourceMap": true,
     "rootDir": "./",
-    "outDir": "dist/"
-  }
+    "outDir": "dist/",
+  },
+  "include": [
+    "../lib/**/*"
+  ]
 }
