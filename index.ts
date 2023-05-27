@@ -10,5 +10,5 @@ export const handler = async () => {
 };
 
 
-// tsc index.ts
+// tsc -b
 // mv index.js dist
