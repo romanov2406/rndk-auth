@@ -1,7 +1,7 @@
 
 export const handler = async () => {
   console.log('hello world');
-
+  console.log('Name ivan');
 
   return {
     statusCode: "200",
