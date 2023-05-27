@@ -12,6 +12,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
+          node-version-file: '.nvmrc'
           node_version: "16"
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v2
