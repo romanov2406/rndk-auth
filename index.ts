@@ -1,3 +1,5 @@
+import * as _ from 'lodash'
+
 
 export const handler = async () => {
   console.log('hello world');
@@ -5,7 +7,7 @@ export const handler = async () => {
 
   return {
     statusCode: "200",
-    body: JSON.stringify(Math.random() * 999  + 'Romeo'),
+    body: JSON.stringify(_.random(999)  + ' ' + 'Romeo'),
   };
 };
 
